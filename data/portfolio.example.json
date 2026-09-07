@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-06T20:00:00Z",
+  "source": {
+    "kind": "fixture",
+    "label": "Sanitized portfolio fixture",
+    "freshness": "current"
+  },
+  "sites": [
+    {
+      "id": "northstar-guides",
+      "name": "Northstar Guides",
+      "domain": "northstar.example",
+      "tier": "internal",
+      "lifecycle": "canary",
+      "health": "healthy",
+      "repositoryOwner": "ExampleCo",
+      "operatingHome": "2xgrowthagency",
+      "role": "Read-only canary property",
+      "articleCount": {
+        "kind": "known",
+        "value": 42,
+        "unit": "live articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "Live sitemap"
+      },
+      "searchPerformance": {
+        "kind": "known",
+        "value": 12.4,
+        "unit": "% clicks vs baseline",
+        "observedAt": "2026-09-05",
+        "sourceLabel": "Sanitized Search Console summary"
+      },
+      "pipeline": {
+        "kind": "connected",
+        "mode": "Repository publish pipeline",
+        "status": "healthy",
+        "sourceLabel": "Latest verified run",
+        "lastProofAt": "2026-09-06"
+      },
+      "goals": [
+        {
+          "id": "northstar-discovery",
+          "title": "Grow qualified non-brand discovery",
+          "owner": "SEO lead",
+          "timeframe": "Q4 2026",
+          "confidence": "medium",
+          "status": "on-track",
+          "progress": {
+            "kind": "measured",
+            "baseline": 100,
+            "current": 124,
+            "target": 160,
+            "unit": "indexed discovery clicks"
+          }
+        }
+      ],
+      "activeInitiative": "Opportunity-page refresh",
+      "biggestRisk": "Two priority clusters have incomplete conversion evidence.",
+      "nextAction": "Review accepted findings before the Friday planning pass.",
+      "nextReview": "2026-09-11",
+      "decisions": [
+        {
+          "id": "northstar-note-1",
+          "recordedAt": "2026-09-05",
+          "text": "Keep the opportunity-page refresh in canary until conversion evidence is available.",
+          "disposition": "deferred"
+        }
+      ]
+    },
+    {
+      "id": "harbor-journal",
+      "name": "Harbor Journal",
+      "domain": "harbor.example",
+      "tier": "t2",
+      "lifecycle": "production",
+      "health": "watch",
+      "repositoryOwner": "PartnerStudio",
+      "operatingHome": "undecided",
+      "role": "Commercial editorial property",
+      "articleCount": {
+        "kind": "known",
+        "value": 68,
+        "unit": "live articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "Live sitemap"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Search Console adapter is not connected."
+      },
+      "pipeline": {
+        "kind": "connected",
+        "mode": "Scheduled content dispatcher",
+        "status": "watch",
+        "sourceLabel": "Repository run history",
+        "lastProofAt": "2026-09-04"
+      },
+      "goals": [
+        {
+          "id": "harbor-cadence",
+          "title": "Maintain useful publishing cadence",
+          "owner": "Content ops",
+          "timeframe": "September 2026",
+          "confidence": "low",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "Distinct-topic capacity has not been reconciled."
+          }
+        }
+      ],
+      "activeInitiative": "Keyword-cluster cleanup",
+      "biggestRisk": "Variant keywords may become cannibalizing articles.",
+      "nextAction": "Cluster the queue before scheduling another batch.",
+      "nextReview": "2026-09-09",
+      "decisions": []
+    },
+    {
+      "id": "field-notes",
+      "name": "Field Notes",
+      "domain": "fieldnotes.example",
+      "tier": "t3",
+      "lifecycle": "production",
+      "health": "action",
+      "repositoryOwner": "PartnerStudio",
+      "operatingHome": "rankalpers",
+      "role": "Focused niche publication",
+      "articleCount": {
+        "kind": "known",
+        "value": 31,
+        "unit": "live articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "Live sitemap"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Reporting window has not been refreshed."
+      },
+      "pipeline": {
+        "kind": "connected",
+        "mode": "Niche dispatcher",
+        "status": "healthy",
+        "sourceLabel": "Latest verified run",
+        "lastProofAt": "2026-09-05"
+      },
+      "goals": [
+        {
+          "id": "field-alignment",
+          "title": "Align every new article to the approved niche",
+          "owner": "Editorial owner",
+          "timeframe": "Immediate",
+          "confidence": "high",
+          "status": "blocked",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "Current dispatcher rules still admit off-position topics."
+          }
+        }
+      ],
+      "activeInitiative": "Dispatcher niche correction",
+      "biggestRisk": "New pages can dilute the site's editorial positioning.",
+      "nextAction": "Pause mismatched topics and approve the corrected niche contract.",
+      "nextReview": "2026-09-07",
+      "decisions": []
+    }
+  ],
+  "playbooks": [
+    {
+      "id": "technical-baseline",
+      "name": "Technical baseline",
+      "version": "candidate-0.1",
+      "state": "candidate",
+      "runs": 0,
+      "acceptedFindings": 0,
+      "rejectedFindings": 0,
+      "outcomeEvidence": {
+        "kind": "unknown",
+        "reason": "No canary run has completed."
+      },
+      "nextGate": "Run against the approved internal property with a human comparison."
+    },
+    {
+      "id": "gsc-opportunities",
+      "name": "Search Console opportunity triage",
+      "version": "candidate-0.1",
+      "state": "candidate",
+      "runs": 0,
+      "acceptedFindings": 0,
+      "rejectedFindings": 0,
+      "outcomeEvidence": {
+        "kind": "unknown",
+        "reason": "Read-only Search Console access is not connected."
+      },
+      "nextGate": "Confirm the data boundary and validate one sanitized run."
+    },
+    {
+      "id": "post-release-watch",
+      "name": "Post-release SEO watch",
+      "version": "candidate-0.1",
+      "state": "candidate",
+      "runs": 0,
+      "acceptedFindings": 0,
+      "rejectedFindings": 0,
+      "outcomeEvidence": {
+        "kind": "unknown",
+        "reason": "No release observation window has completed."
+      },
+      "nextGate": "Define the release evidence input and stop conditions."
+    }
+  ]
+}
