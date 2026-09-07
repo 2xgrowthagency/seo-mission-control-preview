@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-07T06:51:00.032Z",
+  "source": {
+    "kind": "local",
+    "label": "Real fleet · Sep 6 article census + live availability check",
+    "freshness": "current"
+  },
+  "sites": [
+    {
+      "id": "travelerchoice",
+      "name": "Traveler's Choice",
+      "domain": "travelerchoice.com",
+      "tier": "t1",
+      "lifecycle": "production",
+      "health": "incomplete",
+      "repositoryOwner": "Not published",
+      "operatingHome": "undecided",
+      "role": "Real monitored website. HTTP 200 observed September 6, 2026, 11:49 PM Pacific. Availability is not search visibility.",
+      "articleCount": {
+        "kind": "known",
+        "value": 47,
+        "unit": "live blog articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "September 6 live-sitemap inventory; not Google indexed-page count"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Clicks, impressions and search trends have not been measured in this snapshot. Property-level Search Console access is not yet verified."
+      },
+      "pipeline": {
+        "kind": "unverified",
+        "reason": "Homepage returned HTTP 200 at 2026-09-07T06:49:38.653Z. A reachable site does not independently prove that its publishing scheduler is working."
+      },
+      "goals": [
+        {
+          "id": "travelerchoice-baseline",
+          "title": "Measure organic-search performance",
+          "owner": "Unassigned",
+          "timeframe": "Next evidence pass",
+          "confidence": "unknown",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "No verified traffic baseline or target in the public snapshot; this is a proposed measurement task, not a client-approved goal."
+          }
+        }
+      ],
+      "activeInitiative": "First-pass inventory and availability review",
+      "biggestRisk": "Content volume is known; Google indexing, clicks and business outcomes are not yet measured here.",
+      "nextAction": "Verify Search Console property access, then compare the latest complete 28 days with the preceding 28 days. Do not infer performance from article count.",
+      "nextReview": "After Search Console access verification",
+      "decisions": []
+    },
+    {
+      "id": "newcarryon",
+      "name": "New Carry On",
+      "domain": "newcarryon.com",
+      "tier": "t2",
+      "lifecycle": "production",
+      "health": "incomplete",
+      "repositoryOwner": "Not published",
+      "operatingHome": "undecided",
+      "role": "Real monitored website. HTTP 200 observed September 6, 2026, 11:49 PM Pacific. Availability is not search visibility.",
+      "articleCount": {
+        "kind": "known",
+        "value": 56,
+        "unit": "live blog articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "September 6 live-sitemap inventory; not Google indexed-page count"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Clicks, impressions and search trends have not been measured in this snapshot. Property-level Search Console access is not yet verified."
+      },
+      "pipeline": {
+        "kind": "unverified",
+        "reason": "Homepage returned HTTP 200 at 2026-09-07T06:49:38.653Z. A reachable site does not independently prove that its publishing scheduler is working."
+      },
+      "goals": [
+        {
+          "id": "newcarryon-baseline",
+          "title": "Measure organic-search performance",
+          "owner": "Unassigned",
+          "timeframe": "Next evidence pass",
+          "confidence": "unknown",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "No verified traffic baseline or target in the public snapshot; this is a proposed measurement task, not a client-approved goal."
+          }
+        }
+      ],
+      "activeInitiative": "First-pass inventory and availability review",
+      "biggestRisk": "Content volume is known; Google indexing, clicks and business outcomes are not yet measured here.",
+      "nextAction": "Verify Search Console property access, then compare the latest complete 28 days with the preceding 28 days. Do not infer performance from article count.",
+      "nextReview": "After Search Console access verification",
+      "decisions": []
+    },
+    {
+      "id": "intastravel",
+      "name": "Intas Travel",
+      "domain": "intastravel.com",
+      "tier": "t2",
+      "lifecycle": "production",
+      "health": "incomplete",
+      "repositoryOwner": "Not published",
+      "operatingHome": "undecided",
+      "role": "Real monitored website. HTTP 200 observed September 6, 2026, 11:49 PM Pacific. Availability is not search visibility.",
+      "articleCount": {
+        "kind": "known",
+        "value": 29,
+        "unit": "live blog articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "September 6 live-sitemap inventory; not Google indexed-page count"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Clicks, impressions and search trends have not been measured in this snapshot. Property-level Search Console access is not yet verified."
+      },
+      "pipeline": {
+        "kind": "unverified",
+        "reason": "Homepage returned HTTP 200 at 2026-09-07T06:49:38.653Z. A reachable site does not independently prove that its publishing scheduler is working."
+      },
+      "goals": [
+        {
+          "id": "intastravel-baseline",
+          "title": "Measure organic-search performance",
+          "owner": "Unassigned",
+          "timeframe": "Next evidence pass",
+          "confidence": "unknown",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "No verified traffic baseline or target in the public snapshot; this is a proposed measurement task, not a client-approved goal."
+          }
+        }
+      ],
+      "activeInitiative": "First-pass inventory and availability review",
+      "biggestRisk": "Content volume is known; Google indexing, clicks and business outcomes are not yet measured here.",
+      "nextAction": "Verify Search Console property access, then compare the latest complete 28 days with the preceding 28 days. Do not infer performance from article count.",
+      "nextReview": "After Search Console access verification",
+      "decisions": []
+    },
+    {
+      "id": "dreambook",
+      "name": "Dream Book & Travel",
+      "domain": "dreambookandtravel.com",
+      "tier": "t3",
+      "lifecycle": "production",
+      "health": "incomplete",
+      "repositoryOwner": "Not published",
+      "operatingHome": "undecided",
+      "role": "Real monitored website. HTTP 200 observed September 6, 2026, 11:49 PM Pacific. Availability is not search visibility.",
+      "articleCount": {
+        "kind": "known",
+        "value": 89,
+        "unit": "live blog articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "September 6 live-sitemap inventory; not Google indexed-page count"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Clicks, impressions and search trends have not been measured in this snapshot. Property-level Search Console access is not yet verified."
+      },
+      "pipeline": {
+        "kind": "unverified",
+        "reason": "Homepage returned HTTP 200 at 2026-09-07T06:49:38.653Z. A reachable site does not independently prove that its publishing scheduler is working."
+      },
+      "goals": [
+        {
+          "id": "dreambook-baseline",
+          "title": "Measure organic-search performance",
+          "owner": "Unassigned",
+          "timeframe": "Next evidence pass",
+          "confidence": "unknown",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "No verified traffic baseline or target in the public snapshot; this is a proposed measurement task, not a client-approved goal."
+          }
+        }
+      ],
+      "activeInitiative": "First-pass inventory and availability review",
+      "biggestRisk": "Content volume is known; Google indexing, clicks and business outcomes are not yet measured here.",
+      "nextAction": "Verify Search Console property access, then compare the latest complete 28 days with the preceding 28 days. Do not infer performance from article count.",
+      "nextReview": "After Search Console access verification",
+      "decisions": []
+    },
+    {
+      "id": "costa-rica",
+      "name": "Amazing Costa Rica Travel",
+      "domain": "amazingcostaricatravel.com",
+      "tier": "t3",
+      "lifecycle": "production",
+      "health": "incomplete",
+      "repositoryOwner": "Not published",
+      "operatingHome": "undecided",
+      "role": "Real monitored website. HTTP 200 observed September 6, 2026, 11:49 PM Pacific. Availability is not search visibility.",
+      "articleCount": {
+        "kind": "known",
+        "value": 27,
+        "unit": "live blog articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "September 6 live-sitemap inventory; not Google indexed-page count"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Clicks, impressions and search trends have not been measured in this snapshot. Property-level Search Console access is not yet verified."
+      },
+      "pipeline": {
+        "kind": "unverified",
+        "reason": "Homepage returned HTTP 200 at 2026-09-07T06:49:38.653Z. A reachable site does not independently prove that its publishing scheduler is working."
+      },
+      "goals": [
+        {
+          "id": "costa-rica-baseline",
+          "title": "Measure organic-search performance",
+          "owner": "Unassigned",
+          "timeframe": "Next evidence pass",
+          "confidence": "unknown",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "No verified traffic baseline or target in the public snapshot; this is a proposed measurement task, not a client-approved goal."
+          }
+        }
+      ],
+      "activeInitiative": "First-pass inventory and availability review",
+      "biggestRisk": "Content volume is known; Google indexing, clicks and business outcomes are not yet measured here.",
+      "nextAction": "Verify Search Console property access, then compare the latest complete 28 days with the preceding 28 days. Do not infer performance from article count.",
+      "nextReview": "After Search Console access verification",
+      "decisions": []
+    },
+    {
+      "id": "travelnology",
+      "name": "Travelnology",
+      "domain": "travelnology.com",
+      "tier": "t3",
+      "lifecycle": "production",
+      "health": "incomplete",
+      "repositoryOwner": "Not published",
+      "operatingHome": "undecided",
+      "role": "Real monitored website. HTTP 200 observed September 6, 2026, 11:49 PM Pacific. Availability is not search visibility.",
+      "articleCount": {
+        "kind": "known",
+        "value": 21,
+        "unit": "live blog articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "September 6 live-sitemap inventory; not Google indexed-page count"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Clicks, impressions and search trends have not been measured in this snapshot. Property-level Search Console access is not yet verified."
+      },
+      "pipeline": {
+        "kind": "unverified",
+        "reason": "Homepage returned HTTP 200 at 2026-09-07T06:49:38.653Z. A reachable site does not independently prove that its publishing scheduler is working."
+      },
+      "goals": [
+        {
+          "id": "travelnology-baseline",
+          "title": "Measure organic-search performance",
+          "owner": "Unassigned",
+          "timeframe": "Next evidence pass",
+          "confidence": "unknown",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "No verified traffic baseline or target in the public snapshot; this is a proposed measurement task, not a client-approved goal."
+          }
+        }
+      ],
+      "activeInitiative": "First-pass inventory and availability review",
+      "biggestRisk": "Content volume is known; Google indexing, clicks and business outcomes are not yet measured here.",
+      "nextAction": "Verify Search Console property access, then compare the latest complete 28 days with the preceding 28 days. Do not infer performance from article count.",
+      "nextReview": "After Search Console access verification",
+      "decisions": []
+    },
+    {
+      "id": "flights-usa",
+      "name": "Flights in USA",
+      "domain": "flightsinusa.com",
+      "tier": "t3",
+      "lifecycle": "production",
+      "health": "incomplete",
+      "repositoryOwner": "Not published",
+      "operatingHome": "undecided",
+      "role": "Real monitored website. HTTP 200 observed September 6, 2026, 11:49 PM Pacific. Availability is not search visibility.",
+      "articleCount": {
+        "kind": "known",
+        "value": 34,
+        "unit": "live blog articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "September 6 live-sitemap inventory; not Google indexed-page count"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Clicks, impressions and search trends have not been measured in this snapshot. Property-level Search Console access is not yet verified."
+      },
+      "pipeline": {
+        "kind": "unverified",
+        "reason": "Homepage returned HTTP 200 at 2026-09-07T06:49:38.653Z. A reachable site does not independently prove that its publishing scheduler is working."
+      },
+      "goals": [
+        {
+          "id": "flights-usa-baseline",
+          "title": "Measure organic-search performance",
+          "owner": "Unassigned",
+          "timeframe": "Next evidence pass",
+          "confidence": "unknown",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "No verified traffic baseline or target in the public snapshot; this is a proposed measurement task, not a client-approved goal."
+          }
+        }
+      ],
+      "activeInitiative": "First-pass inventory and availability review",
+      "biggestRisk": "Content volume is known; Google indexing, clicks and business outcomes are not yet measured here.",
+      "nextAction": "Verify Search Console property access, then compare the latest complete 28 days with the preceding 28 days. Do not infer performance from article count.",
+      "nextReview": "After Search Console access verification",
+      "decisions": []
+    },
+    {
+      "id": "travel-studio",
+      "name": "The Travel Studio",
+      "domain": "thetravel-studio.com",
+      "tier": "t3",
+      "lifecycle": "production",
+      "health": "incomplete",
+      "repositoryOwner": "Not published",
+      "operatingHome": "undecided",
+      "role": "Real monitored website. HTTP 200 observed September 6, 2026, 11:49 PM Pacific. Availability is not search visibility.",
+      "articleCount": {
+        "kind": "known",
+        "value": 38,
+        "unit": "live blog articles",
+        "observedAt": "2026-09-06",
+        "sourceLabel": "September 6 live-sitemap inventory; not Google indexed-page count"
+      },
+      "searchPerformance": {
+        "kind": "unknown",
+        "reason": "Clicks, impressions and search trends have not been measured in this snapshot. Property-level Search Console access is not yet verified."
+      },
+      "pipeline": {
+        "kind": "unverified",
+        "reason": "Homepage returned HTTP 200 at 2026-09-07T06:49:38.653Z. A reachable site does not independently prove that its publishing scheduler is working."
+      },
+      "goals": [
+        {
+          "id": "travel-studio-baseline",
+          "title": "Measure organic-search performance",
+          "owner": "Unassigned",
+          "timeframe": "Next evidence pass",
+          "confidence": "unknown",
+          "status": "unmeasured",
+          "progress": {
+            "kind": "unmeasured",
+            "reason": "No verified traffic baseline or target in the public snapshot; this is a proposed measurement task, not a client-approved goal."
+          }
+        }
+      ],
+      "activeInitiative": "First-pass inventory and availability review",
+      "biggestRisk": "Content volume is known; Google indexing, clicks and business outcomes are not yet measured here.",
+      "nextAction": "Verify Search Console property access, then compare the latest complete 28 days with the preceding 28 days. Do not infer performance from article count.",
+      "nextReview": "After Search Console access verification",
+      "decisions": []
+    }
+  ],
+  "playbooks": [
+    {
+      "id": "fleet-inventory",
+      "name": "Fleet inventory and availability",
+      "version": "0.1.0",
+      "state": "canary",
+      "runs": 1,
+      "acceptedFindings": 0,
+      "rejectedFindings": 0,
+      "outcomeEvidence": {
+        "kind": "known",
+        "value": 8,
+        "unit": "homepages responding HTTP 200; not an SEO outcome",
+        "observedAt": "2026-09-07T06:49:38.653Z",
+        "sourceLabel": "Direct read-only HTTPS checks across the eight registered sites"
+      },
+      "nextGate": "Verify property-level Search Console coverage and measure search performance; no measured SEO outcome yet."
+    }
+  ]
+}
