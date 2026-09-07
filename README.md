@@ -3,9 +3,11 @@
 [Open the dashboard](https://2xgrowthagency.github.io/seo-mission-control-preview/)
 
 This public repository holds only the built static preview. The SEO source
-repository remains private. The dashboard now uses the eight-site real fleet
-inventory: 341 articles counted September 6, 2026, plus successful homepage
-HTTP checks at 11:49 PM Pacific that day. These are not search-performance metrics.
+repository remains private. The dashboard now includes ten sites: the original
+eight-site fleet plus 2x.agency and Puns & Paws. The 341 known articles and
+September 6 homepage checks cover only the original eight; the two additions
+have unknown content counts, publishing verification and search baselines.
+These are not search-performance metrics. The operating-home label is Rank Helpers.
 
 ## File-backed data
 
@@ -41,3 +43,8 @@ its Git history. Revert a preview commit to restore its previous snapshot/build.
 
 Initial build: SEO PR #9, source revision
 `c5e7f95aa97f1962258ae3ce9d7ccf84d26f9fe0`, independently verified by Crosscheck.
+
+September 7 label refresh: source `bacad08` corrects Rank Helpers in two display
+strings only; the generated JavaScript comparison and nine focused tests pass.
+Fresh browser QA was unavailable for this refresh. The ten-site snapshot keeps
+the original eight-site evidence unchanged and marks both new baselines unknown.
